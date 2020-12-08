@@ -1,0 +1,24 @@
+.CarouselItemContainer {
+    border: 0.5px solid grey;
+    border-radius: 0.5rem;
+    /* height: "80%"; */
+}
+
+.CarouselItemContainerMoveLeft {
+    transform: translate(calc(-1 * (200% + 1rem)));
+    /* transition: all 2s ease-in-out; */
+}
+
+.CarouselItemContainerMoveRight {
+    transform: translate(calc(200% + 1rem));
+    /* transition: all 2s ease-in-out; */
+}
+
+.CarouselItemContainerActive {
+    box-shadow: rgba(0,0,0,0.5) 0px 0px 40px;
+    margin: 0 1rem;
+}
+
+.CarouselItemContainerInactive {
+    margin: 1.5rem 0;
+}

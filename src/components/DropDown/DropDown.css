@@ -1,0 +1,42 @@
+.drop-down {
+    margin: 1rem;
+    min-width: 10rem;
+    float: right;
+    /* padding: 2rem; */
+}
+
+.btn {
+    background-color: green;
+    padding: 1rem;
+    border: none;
+    width: 8rem;
+    border-radius: 0.5rem;
+}
+
+.content {
+    display: none;
+    background-color: grey;
+    position: absolute;
+    width: 8rem;
+    z-index: 10;
+}
+
+.drop-down:hover .content {
+    display: block;
+}
+
+.content-item {
+    display: flex;
+    padding: 0.5rem;
+    width: inherit;
+    align-items: flex-start;
+}
+
+.content content-item:hover {
+    padding: 12px 16px;
+    background-color: darkgray;
+}
+
+.item-highlight {
+    background-color: aquamarine;
+}
