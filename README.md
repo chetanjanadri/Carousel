@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+## Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Carousel component created using React.
+The Carousel has sliding animation and filter functionality based on category.
 
 ## Available Scripts
 
